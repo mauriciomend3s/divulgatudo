@@ -1,5 +1,8 @@
 package com.cap.divulgatudo.model;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -7,24 +10,24 @@ import javax.persistence.Id;
 
 @Entity
 public class Anuncio {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private String id_Anuncio;
+	
+	private Long id_Anuncio;
 	private String nome_Anuncio;
 	private String cliente;
 	private String data_Inicio;
 	private String data_Termino;
-	private double investimento_Dia;
+	private Double investimento_Dia;
 
 	public Anuncio() {
 
 	}
-
-	public String getId_Anuncio() {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public Long getId_Anuncio() {
 		return id_Anuncio;
 	}
 
-	public void setId_Anuncio(String id_Anuncio) {
+	public void setId_Anuncio(Long id_Anuncio) {
 		this.id_Anuncio = id_Anuncio;
 	}
 
@@ -60,11 +63,11 @@ public class Anuncio {
 		this.data_Termino = data_Termino;
 	}
 
-	public double getInvestimento_Dia() {
+	public Double getInvestimento_Dia() {
 		return investimento_Dia;
 	}
 
-	public void setInvestimento_Dia(double investimento_Dia) {
+	public void setInvestimento_Dia(Double investimento_Dia) {
 		this.investimento_Dia = investimento_Dia;
 	}
 }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>Cadastro de Anúncio</title>
+
+<!-- CSS only -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles.css" >
+
+
+<!--NavBar-->
+
+<nav style="background-color: #B22222; height:80px;">
+	<ul class="nav justify-content-left">
+		<a class="navbar-brand text-white" href="#">Divulga Tudo
+		</a>
+		<li class="nav-item"><a class="nav-link active text-white"
+			href="#">Home</a>
+		<li class="nav-item "><a class="nav-link text-white" href="#">Anúncios</a></li>
+		</li>
+	</ul>
+</nav>
+
+<!--NavBar-->
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-6">
+				<h1>Cadastre um novo Anúncio</h1>
+				<hr>
+				<br />
+				<form action="#" th:action="@{/save}" th:object="${anuncio}"
+					method="post">
+					<div>
+						<input type="text" th:field="*{nome_Anuncio}" placeholder="Nome do Anúncio"
+							class="form-control mb-4">
+					</div>
+
+					<div>
+						<input type="text" th:field="*{cliente}"placeholder="Cliente" 
+						    class="form-control mb-4">
+					</div>
+					<div>
+						<input type="date" th:field="*{data_Inicio}" placeholder="Data de Início"
+							class="form-control mb-4">
+					</div>
+					<div>
+						<input type="date" th:field="*{Data_Termino}" placeholder="Data de Término"
+							class="form-control mb-4">
+					</div>
+					
+					<div>
+						<input type="number" th:field="*{investimento_Dia}" placeholder="Valor diário"
+							class="form-control mb-4"  onkeypress="return somenteNumeros(event)">
+					</div>
+
+					<div>
+						<button type="submit" class="btn btn-info col-2">Salvar</button>
+					</div>
+				</form>
+
+				<hr>
+				<a th:href="@{/}">Volte para lista de Anúncios</a>
+
+			</div>
+		</div>
+	</div>
+	
+	<footer class="text-center text-white" style="position:absolute; bottom:0; width:100%;">
+	<!-- Grid container -->
+	<div class="container p-4 pb-0"></div>
+	<!-- Grid container -->
+
+	<!-- Copyright -->
+	<div class=" text-white text-center p-3" style="background-color: #B22222; border-color: #000; height:120px;"> 
+	<br>
+	
+	© 2021 Copyright: <a href="https://mdbootstrap.com/" class="text-white text-center">www.divulgatudo.com.br</a>
+	</div>
+	<!-- Copyright -->
+</footer>
+
+</html>

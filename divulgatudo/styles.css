@@ -1,0 +1,34 @@
+body{
+    background: rgba(0,77,153,0.6);
+    border: 4px solid #8080c0;
+    margin: 200px 500px 0px 500px;
+    border-radius: 125px;
+}
+
+.teste {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding: 80px;
+    padding-bottom: 60px;
+}
+
+acesso{
+    margin-bottom: 15px;
+    margin-left: 150px;
+    font-family: 'Times New Roman';
+    color: blue;
+}
+
+fundo{
+    background: url('../WebContent/img/wallpaper.jpg') no-repeat center;
+    margin:0;
+    padding:0;
+    background-size:cover;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}

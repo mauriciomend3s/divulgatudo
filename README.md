@@ -50,7 +50,7 @@ Foi utilizado no projeto as seguintes tecnologias:
 ![image](https://user-images.githubusercontent.com/30990442/118337256-ccb92f00-b4e9-11eb-8255-2455ad840e61.png)
 
 
-<h3>COMO EXECUTAR O PROJETO
+<h3>COMO EXECUTAR O PROJETO</h3>
 
 Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
 Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:”aplication.properties”

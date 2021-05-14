@@ -37,10 +37,24 @@ Foi utilizado no projeto as seguintes tecnologias:
 
 ![dt1](https://user-images.githubusercontent.com/30990442/118333616-65e44780-b4e2-11eb-8dc0-168ee8054ef0.jpg)
 
+<h5>Tela ANÚNCIOS</h5>
+
+![image](https://user-images.githubusercontent.com/30990442/118336866-e9a13280-b4e8-11eb-9b0e-73b7f3600489.png)
+
+<h5>Tela CADASTRAR ANÚNCIOS</h5>
+
+![image](https://user-images.githubusercontent.com/30990442/118337072-574d5e80-b4e9-11eb-95ba-51bdc303aa39.png)
+
+<h5>Tela EDITAR ANÚNCIOS</h5>
+
+![image](https://user-images.githubusercontent.com/30990442/118337256-ccb92f00-b4e9-11eb-8255-2455ad840e61.png)
+
+
 <h3>COMO EXECUTAR O PROJETO
 
 Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
 Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:”aplication.properties”
+
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
 Em, <h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>

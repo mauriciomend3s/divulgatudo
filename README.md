@@ -34,30 +34,22 @@ Foi utilizado no projeto as seguintes tecnologias:
 
 <h3>TELAS DO PROJETO</h3>
 <h5>Tela HOME</h5>
-![image](https://user-images.githubusercontent.com/30990442/118333889-ec008e00-b4e2-11eb-9e57-0b6b8916bdb6.png)
 
+![dt1](https://user-images.githubusercontent.com/30990442/118333616-65e44780-b4e2-11eb-8dc0-168ee8054ef0.jpg)
 
 <h3>COMO EXECUTAR O PROJETO
 
 Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
-Uma vez que o projeto estiver no ambiente de desenvolvimento. Faça a configuração do arquivo:”aplication.properties”
-spring.jpa.hibernate.ddl-auto=none
-spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo
-spring.datasource.username=postgres
-spring.datasource.password=password![dt1](https://user-images.githubusercontent.com/30990442/118333616-65e44780-b4e2-11eb-8dc0-168ee8054ef0.jpg)
+Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:”aplication.properties”
+![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-Em “spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo ”
+Em, <h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>
 Mude o nome do banco e a porta para a que você utiliza em sua máquina.
 
 Faça o mesmo em:
 
-spring.datasource.username=postgres
-spring.datasource.password=password
-
+<h5>spring.datasource.username=postgres</h5>
+<h5>spring.datasource.password=password</h5>
 
 No arquivo pom.xml caso esteja utilizando um banco que não seja o postgres, mude a dependência:
 

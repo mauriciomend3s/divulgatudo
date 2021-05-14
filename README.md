@@ -4,7 +4,7 @@ Aplicação Web de anúncios
 
 <h1>Desafio de Programação - Academia Capgemini</h1>
 
-O QUE É
+<h3>O QUE É</h3>
 
 O Projeto Divulga Tudo é uma aplicação web de gerenciamento de anúncios. 
 

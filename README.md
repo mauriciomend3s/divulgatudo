@@ -75,7 +75,14 @@ No arquivo pom.xml caso esteja utilizando um banco que não seja o postgres, mud
 <scope>runtime</scope>
 </dependency>
 
-Após configurar o aplication.properties e o pom.xml, crie uma base de dados no seu SGBD com o nome (anuncio)
+Após configurar o aplication.properties e o pom.xml, crie uma base de dados no seu SGBD com o nome (divulgaTudo). Feito isso, volte para o ECLIPSE e execute a aplicação acessando o pacote com.cap.divulgatudo > DivulgatudoApplication.java:
+
+![image](https://user-images.githubusercontent.com/30990442/118338382-641f8180-b4ec-11eb-85f9-7e5eacffd2f1.png)
+
+Feito isso, insira no seu brwser a url: http://localhost:8080/
+
+<h3>AGRADEÇO A ATENÇÃO DE TODOS E O EMPENHO PARA FAZER A APLICAÇÃO RODAR!</h3>
+
 
 
 

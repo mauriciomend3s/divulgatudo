@@ -9,12 +9,12 @@ Aplicação Web de anúncios
 O Projeto Divulga Tudo é uma aplicação web de gerenciamento de anúncios. 
 
 
-OBJETIVO
+<h3>OBJETIVO</h3>
 
 A aplicação Divulga Tudo é um projeto web que tem como objetivo, gerenciar o cadastro de anúncios e com base no valor investido, mostrar uma projeção de cliques, compartilhamentos e visualizações dos anúncios cadastrados permitindo assim uma análise de seus resultados.
 
 
-PRÉ-REQUISITOS
+<h3>PRÉ-REQUISITOS</h3>
 
 •	Será necessário para a compilação do projeto:
 •	IDE ECLIPSE;
@@ -22,7 +22,7 @@ PRÉ-REQUISITOS
 •	Base de Dados(Foi utilizado o PostgreSQL, porém pode ser outro banco);
 •	PGAdmin(Pode ser outro SGBD também).
 
-TECNOLOGIAS UTILIZADAS
+<h3>TECNOLOGIAS UTILIZADAS</h3>
 
 Foi utilizado no projeto as seguintes tecnologias:
 •	JAVA;
@@ -32,11 +32,12 @@ Foi utilizado no projeto as seguintes tecnologias:
 •	BOOTSTRAP;
 •	SPRING BOOT.
 
-TELAS DO PROJETO
+<h3>TELAS DO PROJETO</h3>
+<h5>Tela HOME</h5>
 ![image](https://user-images.githubusercontent.com/30990442/118333889-ec008e00-b4e2-11eb-9e57-0b6b8916bdb6.png)
 
 
-COMO EXECUTAR O PROJETO
+<h3>COMO EXECUTAR O PROJETO
 
 Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
 Uma vez que o projeto estiver no ambiente de desenvolvimento. Faça a configuração do arquivo:”aplication.properties”

@@ -67,10 +67,7 @@ Mude o nome do "banco" e a "porta" caso não tenha o PostgreSQL instalado em sua
 
 Faça o mesmo em: <b> username </b> e <b> password. </b> 
 
-<h5>5 PASSO:</h5> Em:
-
-<b>spring.datasource.username=postgres</b>
-<b>spring.datasource.password=password</b>
+<h5>5 PASSO:</h5> Em: <b>spring.datasource.username=postgres</b> e <b>spring.datasource.password=password</b>
 
 Coloque o username e password definidos quando foi feita a instalação do banco em sua máquina.
 

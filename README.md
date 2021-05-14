@@ -25,7 +25,6 @@ Será necessário para a compilação do projeto:
 
 <h3>TECNOLOGIAS UTILIZADAS</h3>
 
-Foi utilizado no projeto as seguintes tecnologias:
 <ul>
   <li>JAVA;</li>
   <li>HTML;</li>

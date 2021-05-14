@@ -55,7 +55,7 @@ Será necessário para a compilação do projeto:
 <h3>COMO EXECUTAR O PROJETO</h3>
 
 Para executar o projeto será necessario seguir os seguintes passos:
-<h5>1 PASSO:</h5> Será necessário baixar o arquivo ou fazer um clone no repositório.
+<h5>1 PASSO:</h5> Será necessário baixar o projeto ou fazer um clone do repositório.
 <h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia o "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
 <h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>
 

@@ -62,7 +62,7 @@ Para executar o projeto será necessario seguir os seguintes passos:
 
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
-<h5>4 PASSO:</h5>Em:<h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>
+<h5>4 PASSO:</h5>Em:<b>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </b>
 Mude o nome do "banco" e a "porta" para que você possa utilizar em sua máquina.
 
 Faça o mesmo em: <b>username</b> e <b>password</b> 

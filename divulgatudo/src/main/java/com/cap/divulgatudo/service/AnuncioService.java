@@ -34,4 +34,8 @@ public class AnuncioService {
 		repo.deleteById(id_Anuncio);
 	}	
 
+//	public void updateAnuncio(Long id, Anuncio anuncio) {
+//    repo.updateAnuncio(id, anuncio);
+//}
+
 }

@@ -1,28 +1,52 @@
 package com.cap.divulgatudo.model;
 
-import java.time.LocalDate;
+
+
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+
 
 @Entity
+@Table(name="anuncio")
 public class Anuncio {
 	
+	@Id 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id_Anuncio;
+	
+	@Column(length = 255, nullable = false)
 	private String nome_Anuncio;
+
+	@Column(length = 255, nullable = false)
 	private String cliente;
-	private String data_Inicio;
-	private String data_Termino;
+	
+	@Temporal(TemporalType.TIMESTAMP)
+    @Column(nullable = false)
+	private Date data_Inicio;
+
+	@Temporal(TemporalType.TIMESTAMP)
+    @Column(nullable = false)
+	private Date data_Termino;
+	
+	@Column(nullable = false )
 	private Double investimento_Dia;
+
+	@Transient
+	private Projecao projecao;
 
 	public Anuncio() {
 
 	}
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	public Long getId_Anuncio() {
 		return id_Anuncio;
 	}
@@ -47,19 +71,19 @@ public class Anuncio {
 		this.cliente = cliente;
 	}
 
-	public String getData_Inicio() {
+	public Date getData_Inicio() {
 		return data_Inicio;
 	}
 
-	public void setData_Inicio(String data_Inicio) {
+	public void setData_Inicio(Date data_Inicio) {
 		this.data_Inicio = data_Inicio;
 	}
 
-	public String getData_Termino() {
+	public Date getData_Termino() {
 		return data_Termino;
 	}
 
-	public void setData_Termino(String data_Termino) {
+	public void setData_Termino(Date data_Termino) {
 		this.data_Termino = data_Termino;
 	}
 
@@ -69,5 +93,13 @@ public class Anuncio {
 
 	public void setInvestimento_Dia(Double investimento_Dia) {
 		this.investimento_Dia = investimento_Dia;
+	}
+
+		public Projecao getProjecao() {
+		return projecao;
+	}
+
+	public void setProjecao(Projecao projecao) {
+		this.projecao = projecao;
 	}
 }

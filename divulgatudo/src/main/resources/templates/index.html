@@ -3,7 +3,7 @@
 	xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="utf-8" />
-<title>Cadastro de Anúncio</title>
+<title>Anúncios Cadastrados</title>
 
 <!-- CSS only -->
 <link
@@ -11,17 +11,17 @@
 	rel="stylesheet"
 	integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
 	crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="static/styles.css">
 
 <!--NavBar-->
 
 <nav style="background-color: #B77A51; height: 80px;">
+ <a class="navbar-brand" href="#">
+<nav style="background-color: #B77A51; height: 80px;">
 	<ul class="nav justify-content-center">
-		<a class="navbar-brand text-white" href="#">DIVULGA TUDO</a>
-		<li class="nav-item"><a class="nav-link text-white"href="#">HOME</a></li>
-		<li class="nav-item"><a class="nav-link text-white"href="#">ANÚNCIOS</a></li>
-		<li class="nav-item"><a class="nav-link text-white"href="#">PROJEÇÕES</a></li>
-		
+	<a th:href="@{/home}"> <img src="post_it_DivulgaTudo.png" width="100" height="80" class="d-inline-block align-top" alt="" ></a>
+		<li class="nav-item"><a class="nav-link text-white" th:href="@{/home}">HOME</a></li>
+		<li class="nav-item"><a class="nav-link text-white" th:href="@{/}">ANÚNCIOS</a></li>
 	</ul>
 </nav>
 
@@ -33,68 +33,77 @@
 
 <!--body-->
 
-<body  style="background-color: #F9EEE8;">
+<body style="background-color: #F9EEE8;">
 <br />
 		<br />
-    <div class="container">
+    <div class="container"><!---->
     
-    <div>
-			<a style="background-color: #75BD43;" href="new" class="btn btn-sm mb-3">Cadastre um novo Anúncio</a> 
+    <div class="d-grid gap-2 col-2 mx-auto">
+    <br /> 
+    <br />
+			<a style="background-color: #75BD43;" href="new" class="btn btn-sm mb-3 text-white">Cadastre um novo Anúncio</a> 
 			<br/> 
-			<br/>
+		
 		</div>
 
+
+
 		<div>&nbsp;</div>
-		<div>
+		<h1 class="text-black text-center">Anúncios Cadastrados</h1>
+		<div class=" d-grid gap-2 d-md-flex justify-content-md-end">
+		
 			<form th:action="@{/}">
 				<input type="text" placeholder="Insira o nome do cliente" name="filtro" th:value="${filtro}" required /> 
 				&nbsp;
-				<button type="submit" class="btn btn-primary">Filtrar</button>
+				<button type="submit" style="background-color: #75BD43;" class="btn btn-primary btn-sm">Filtrar</button>
 				&nbsp;
-				<button type="button" class="btn btn-primary" onclick="clearFilter()">Limpar</button>
-		</div>
+				<button type="button" style="background-color: #D8AA93;" class="btn btn-primary btn-sm" onclick="clearFilter()">Limpar</button>
 		</form>
-		<br/> 
-		<br/>
-			<h1 class="text-black">Anúncios Cadastrados</h1>
+		
+		</div>
+		 
+		
+			
 	</div>
 	
-
- 
-   
 	
-	<div class="container my-5">
+	<div class="container my-2"><!-- -->
 
 		<!--table-->
 
-		<table border="1" class="table table-striped table-responsive-md">
+		<table border="1" class="table table-striped table-responsive-md table-sm table-bordered">
 			<thead>
 				<tr>
-					<th>Código do Anúncio</th>
-					<th>Nome do Anúncio</th>
+					<th> Código</th>
+					<th>Nome</th>
 					<th>Cliente</th>
-					<th>Data de início</th>
-					<th>Data de término</th>
+					<th>Início</th>
+					<th>Término</th>
 					<th>Investimento Diário</th>
+					<th>Qtd Max Visualizações </th>
+					<th>Qtd Max Cliques </th>
+					<th>Qtd Max Compartilhamentos  </th>
+					<th>Valor Total Investido  </th>
+					
 					<th>Ações</th>
 				</tr>
 			</thead>
 
 			<tbody>
 				<tr th:each="anuncio : ${listAnuncios}">
-					<td th:text="${anuncio.id_Anuncio}">Código do Anúncio</td>
-					<td th:text="${anuncio.nome_Anuncio}">Nome do Anúncio</td>
-					<td th:text="${anuncio.cliente}">Cliente</td>
-					<td><span th:date="${anuncio.data_Inicio}">Data de Início</span></td>
-					<td><span th:date="${anuncio.data_Termino}">Data de Término</span></td>
-					<td><span th:if="${anuncio.investimento_Dia} != null" th:text="${ #numbers.formatDecimal(anuncio.investimento_Dia,3,'POINT',2,'COMMA')}">InvestimentoDiário</span></td>
+					<td th:text="${anuncio.id_Anuncio}"></td>
+					<td th:text="${anuncio.nome_Anuncio}"></td>
+					<td th:text="${anuncio.cliente}"></td>
+					<td th:text="${#dates.format(anuncio.data_Inicio, 'dd/MM/yyyy')}"></td>
+					<td th:text="${#dates.format(anuncio.data_Termino, 'dd/MM/yyyy')}"></td>
+					<td><span th:if="${anuncio.investimento_Dia} != null" th:text="${ #numbers.formatDecimal(anuncio.investimento_Dia,3,'POINT',2,'COMMA')}"></span></td>
+					<td th:text="${anuncio.projecao.qtdMaximaVisualizacoes}"> </td>
+					<td th:text="${anuncio.projecao.qtdMaximaCliques}"> </td>
+					<td th:text="${anuncio.projecao.qtdMaximaCompartilhamentos}"> </td>
+					<td th:text="${anuncio.projecao.valorTotalInvestido}"> </td>
 
-
-					<td><a th:href="@{'/edit/' + ${anuncio.id_Anuncio}}"
-						class="btn btn-primary">Editar</a> &nbsp;&nbsp;&nbsp;&nbsp; <a
-						th:href="@{'/delete/' + ${anuncio.id_Anuncio}}"
-						class="btn btn-danger">Deletar</a></td>
-
+					<td><a th:href="@{'/edit/' + ${anuncio.id_Anuncio}}" style="background-color: #B77A51;" class="text-white btn btn-info col-8 btn-sm">Editar</a> &nbsp;&nbsp;&nbsp;&nbsp; <a
+						   th:href="@{'/delete/' + ${anuncio.id_Anuncio}}" style="background-color: #E0A379;" class="text-white btn btn-info col-8 btn-sm">Deletar</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -107,9 +116,9 @@
 			window.location = '/';
 		}
 	</script>
-
+<br/><br/>
 </body>
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <!--body-->
 <!--footer-->
 
@@ -118,7 +127,7 @@
 	<div class="text-center p-3"
 		style="background-color: #B77A51; height: 120px;">
 		© 2021 Copyright <a class="text-white"
-			href="https://mdbootstrap.com/"><br/>
+			href="https://eun6g.csb.app/"><br/>
 	<br/>www.divulgatudo.com.br</a>
 	</div>
 	<!-- Copyright -->

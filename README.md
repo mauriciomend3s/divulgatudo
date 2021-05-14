@@ -90,7 +90,7 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 
 <h5>8 PASSO:</h5>Feito isso, insira no seu browser a url: http://localhost:8080/
 
-<h3>AGRADEÇO A ATENÇÃO DE TODOS E O EMPENHO PARA FAZER A APLICAÇÃO RODAR!</h3>
+<h3>AGRADEÇO A ATENÇÃO DE TODOS E O EMPENHO PARA FAZER A APLICAÇÃO RODAR!!</h3>
 
 
 

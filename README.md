@@ -4,7 +4,7 @@ Aplicação Web de anúncios
 
 <h1>Desafio de Programação - Academia Capgemini</h1>
 
-<h3>O QUE É?</h3>
+<h3>O QUE É</h3>
 
 O Projeto Divulga Tudo é uma aplicação Web de Gerenciamento de Anúncios. 
 <br/>
@@ -52,7 +52,7 @@ Será necessário para a compilação do projeto:
 ![image](https://user-images.githubusercontent.com/30990442/118337256-ccb92f00-b4e9-11eb-8255-2455ad840e61.png)
 
 
-<h3>COMO EXECUTAR O PROJETO?</h3>
+<h3>COMO EXECUTAR O PROJETO</h3>
 
 Para executar o projeto será necessario seguir os seguintes passos:
 <h5>1 PASSO:</h5> Será necessário baixar o arquivo ou fazer um clone no repositório.

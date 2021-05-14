@@ -76,7 +76,7 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 ![image](https://user-images.githubusercontent.com/30990442/118337778-dd1dd980-b4ea-11eb-9313-ff8582857bf1.png)
 
 
-<h5>7 PASSO:</h5>Após configurar o <b>aplication.properties</b> e o <b>pom.xml</b>, crie uma base de dados no seu <b>SGBD</b> com o nome (divulgaTudo). Feito isso, volte para o ECLIPSE e execute a aplicação acessando o pacote <b>com.cap.divulgatudo > DivulgatudoApplication.java</b></h5> *O Springboot irá criar a tabela anuncio na base de dados que você criou no seu banco. Lembrando que o nome do banco deve ser exatamente assim: <b>divulgaTudo</b>)
+<h5>7 PASSO:</h5>Após configurar o <b>aplication.properties</b> e o <b>pom.xml</b>, crie uma base de dados no seu <b>SGBD</b> com o nome (divulgaTudo). Feito isso, volte para o ECLIPSE e execute a aplicação acessando o pacote <b>com.cap.divulgatudo > DivulgatudoApplication.java</b></h5> *O Springboot irá criar a tabela anuncio na base de dados que você criou no seu banco. Lembrando que o nome do banco deve ser exatamente assim: <b>divulgaTudo</b>
 
 ![image](https://user-images.githubusercontent.com/30990442/118338382-641f8180-b4ec-11eb-85f9-7e5eacffd2f1.png)
 

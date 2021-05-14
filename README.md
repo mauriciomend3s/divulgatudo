@@ -80,7 +80,7 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 
 ![image](https://user-images.githubusercontent.com/30990442/118338382-641f8180-b4ec-11eb-85f9-7e5eacffd2f1.png)
 
-<h5>8 PASSO:</h5>Feito isso, insira no seu browser a url: http://localhost:8080/
+<h5>8 PASSO:</h5>Feito isso, insira no seu browser a url: <b>http://localhost:8080/</b> e faça os cadastros na aplicação.
 
 <h3>AGRADEÇO A ATENÇÃO DE TODOS E O EMPENHO PARA FAZER A APLICAÇÃO RODAR!!</h3>
 

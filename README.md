@@ -7,7 +7,7 @@ Aplicação Web de anúncios
 <h3>O QUE É</h3>
 
 O Projeto Divulga Tudo é uma aplicação web de gerenciamento de anúncios. 
-
+<br/>
 
 <h3>OBJETIVO</h3>
 

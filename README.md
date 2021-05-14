@@ -71,15 +71,10 @@ Faça o mesmo em: <b> username </b> e <b> password. </b>
 
 Coloque o username e password definidos quando foi feita a instalação do banco em sua máquina.
 
-<h5>6 PASSO:</h5>No arquivo <b>pom.xml</b> caso esteja utilizando um banco que não seja o PostgreSQL, mude a dependência:
+<h5>6 PASSO:</h5>No arquivo <b>pom.xml</b> caso esteja utilizando um banco que não seja o PostgreSQL, mude a dependência para dependencia do respectivo banco instalado em sua máquina!
 
 ![image](https://user-images.githubusercontent.com/30990442/118337778-dd1dd980-b4ea-11eb-9313-ff8582857bf1.png)
 
-<dependency>
-<groupId><b>org.postgresql</b></groupId>
-<artifactId><b>postgresql</b></artifactId>
-<scope>runtime</scope>
-</dependency>
 
 <h5>7 PASSO:</h5>Após configurar o <b>aplication.properties</b> e o <b>pom.xml</b>, crie uma base de dados no seu <b>SGBD</b> com o nome (divulgaTudo). Feito isso, volte para o ECLIPSE e execute a aplicação acessando o pacote <b>com.cap.divulgatudo > DivulgatudoApplication.java</b></h5> *O Springboot irá criar a tabela anuncio na base de dados que você criou no seu banco. Lembrando que o nome do banco deve ser exatamente assim: <b>divulgaTudo</b>)
 

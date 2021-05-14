@@ -57,7 +57,8 @@ Será necessário para a compilação do projeto:
 Para executar o projeto será necessario seguir os seguintes passos:
 <h5>1 PASSO:</h5> Será necessário baixar o arquivo ou fazer um clone no repositório.
 <h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia o "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
-<h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>  
+<h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>
+
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
 <h5>4 PASSO:</h5>Em:<h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>

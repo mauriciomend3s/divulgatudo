@@ -15,22 +15,25 @@ A aplicação Divulga Tudo é um projeto web que tem como objetivo, gerenciar o 
 
 
 <h3>PRÉ-REQUISITOS</h3>
-
-•	Será necessário para a compilação do projeto:
-•	IDE ECLIPSE;
-•	JAVA 11;
-•	Base de Dados(Foi utilizado o PostgreSQL, porém pode ser outro banco);
-•	PGAdmin(Pode ser outro SGBD também).
+Será necessário para a compilação do projeto:
+<ul>
+  <li>IDE ECLIPSE;</li>
+  <li>JAVA 11;</li>
+  <li>Base de Dados(Foi utilizado o PostgreSQL, porém pode ser outro banco);</li>
+  <li>PGAdmin(Pode ser outro SGBD também).</li>
+</ul>
 
 <h3>TECNOLOGIAS UTILIZADAS</h3>
 
 Foi utilizado no projeto as seguintes tecnologias:
-•	JAVA;
-•	HTML;
-•	CSS;
-•	JAVASCRIPT;
-•	BOOTSTRAP;
-•	SPRING BOOT.
+<ul>
+  <li>JAVA;</li>
+  <li>HTML;</li>
+  <li>CSS;</li>
+  <li>JAVASCRIPT;</li>
+  <li>BOOTSTRAP;</li>
+  <li>SPRING BOOT.</li>
+</ul>
 
 <h3>TELAS DO PROJETO</h3>
 <h5>Tela HOME</h5>

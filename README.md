@@ -53,12 +53,12 @@ Foi utilizado no projeto as seguintes tecnologias:
 <h3>COMO EXECUTAR O PROJETO</h3>
 
 Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
-Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:”aplication.properties”
+Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
 
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
 Em, <h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>
-Mude o nome do banco e a porta para a que você utiliza em sua máquina.
+Mude o nome do banco e a porta para que você possa utilizar em sua máquina.
 
 Faça o mesmo em:
 
@@ -67,11 +67,15 @@ Faça o mesmo em:
 
 No arquivo pom.xml caso esteja utilizando um banco que não seja o postgres, mude a dependência:
 
+![image](https://user-images.githubusercontent.com/30990442/118337778-dd1dd980-b4ea-11eb-9313-ff8582857bf1.png)
+
 <dependency>
 <groupId>org.postgresql</groupId>
 <artifactId>postgresql</artifactId>
 <scope>runtime</scope>
 </dependency>
+
+Após configurar o aplication.properties e o pom.xml, crie uma base de dados no seu SGBD com o nome (anuncio)
 
 
 

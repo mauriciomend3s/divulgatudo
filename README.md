@@ -4,15 +4,14 @@ Aplicação Web de anúncios
 
 <h1>Desafio de Programação - Academia Capgemini</h1>
 
-<h3>O QUE É</h3>
+<h3>O QUE É?</h3>
 
-O Projeto Divulga Tudo é uma aplicação web de gerenciamento de anúncios. 
+O Projeto Divulga Tudo é uma aplicação Web de Gerenciamento de Anúncios. 
 <br/>
 
 <h3>OBJETIVO</h3>
 
-A aplicação Divulga Tudo é um projeto web que tem como objetivo, gerenciar o cadastro de anúncios e com base no valor investido, mostrar uma projeção de cliques, compartilhamentos e visualizações dos anúncios cadastrados permitindo assim uma análise de seus resultados.
-
+A aplicação Divulga Tudo é um Projeto Web que tem como objetivo, gerenciar o cadastro de anúncios e com base no valor investido, mostrar uma projeção de cliques, compartilhamentos e visualizações dos anúncios cadastrados, permitindo assim uma análise de seus resultados.
 
 <h3>PRÉ-REQUISITOS</h3>
 Será necessário para a compilação do projeto:
@@ -30,6 +29,7 @@ Será necessário para a compilação do projeto:
   <li>HTML;</li>
   <li>CSS;</li>
   <li>JAVASCRIPT;</li>
+  <li>THYMELEAF;</li>
   <li>BOOTSTRAP;</li>
   <li>SPRING BOOT.</li>
 </ul>
@@ -52,20 +52,21 @@ Será necessário para a compilação do projeto:
 ![image](https://user-images.githubusercontent.com/30990442/118337256-ccb92f00-b4e9-11eb-8255-2455ad840e61.png)
 
 
-<h3>COMO EXECUTAR O PROJETO</h3>
+<h3>COMO EXECUTAR O PROJETO?</h3>
 
-Para executar o projeto, será necessário baixar o arquivo ou fazer um clone no repositório.
-Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
-
+Para executar o projeto será necessario seguir os seguintes passos:
+<h5>1 PASSO:</h5> Será necessário baixar o arquivo ou fazer um clone no repositório.
+<h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferencia o "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
+<h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>  
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)
 
-Em, <h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>
-Mude o nome do banco e a porta para que você possa utilizar em sua máquina.
+<h5>4 PASSO:</h5>Em:<h5>spring.datasource.url=jdbc:postgresql://localhost:5432/divulgaTudo </h5>
+Mude o nome do "banco" e a "porta" para que você possa utilizar em sua máquina.
 
 Faça o mesmo em:
-
-<h5>spring.datasource.username=postgres</h5>
-<h5>spring.datasource.password=password</h5>
+<b>username</b> e <b>password</b> coloque a os definidos em sua máquina.
+<h5>spring.datasource.username=<b>postgres</b></h5>
+<h5>spring.datasource.password=<b>password</b></h5>
 
 No arquivo pom.xml caso esteja utilizando um banco que não seja o postgres, mude a dependência:
 

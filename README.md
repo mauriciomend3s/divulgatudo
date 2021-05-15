@@ -57,7 +57,7 @@ Será necessário para a compilação do projeto:
 
 Para executar o projeto será necessário seguir os seguintes passos:
 <h5>1 PASSO:</h5> Será necessário baixar o projeto ou fazer um clone do repositório na branch <b>master</b>: <b>https://github.com/mauriciomend3s/divulgatudo/tree/master</b> 
-<h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferência o "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
+<h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferência o "ECLIPSE". Faça a configuração do arquivo:  ”application.properties”
 <h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>
 
 ![image](https://user-images.githubusercontent.com/30990442/118336271-b8743280-b4e7-11eb-94bd-2b0dfaa887f9.png)

@@ -56,7 +56,7 @@ Será necessário para a compilação do projeto:
 <h3>COMO EXECUTAR O PROJETO</h3>
 
 Para executar o projeto será necessario seguir os seguintes passos:
-<h5>1 PASSO:</h5> Será necessário baixar o projeto ou fazer um clone do repositório.
+<h5>1 PASSO:</h5> Será necessário baixar o projeto ou fazer um clone do repositório na branch <b>master</b>: <b>https://github.com/mauriciomend3s/divulgatudo/tree/master</b> 
 <h5>2 PASSO:</h5>Uma vez que o projeto estiver no ambiente de desenvolvimento, de preferência o "ECLIPSE". Faça a configuração do arquivo:  ”aplication.properties”
 <h5>3 PASSO:</h5>Acesse o arquivo "aplication.properties" em: <b>divulgatudo/src/main/resources/application.properties</b>
 
@@ -85,8 +85,6 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 <h3>AGRADEÇO A ATENÇÃO DE TODOS E O EMPENHO PARA FAZER A APLICAÇÃO RODAR!!</h3>
 
 <h5><i>Maurício Mendes</i><h5>
-
-
 
 
 

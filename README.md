@@ -71,7 +71,7 @@ Faça o mesmo em: <b> username </b> e <b> password. </b>
 
 Coloque o username e password definidos quando foi feita a instalação do banco em sua máquina.
 
-<h5>6 PASSO:</h5>No arquivo <b>pom.xml</b> caso esteja utilizando um banco que não seja o PostgreSQL, mude a dependência para dependencia do respectivo banco instalado em sua máquina!
+<h5>6 PASSO:</h5>No arquivo <b>pom.xml</b> caso esteja utilizando um banco que não seja o PostgreSQL, mude a dependência para dependência do respectivo banco instalado em sua máquina!
 
 ![image](https://user-images.githubusercontent.com/30990442/118337778-dd1dd980-b4ea-11eb-9313-ff8582857bf1.png)
 

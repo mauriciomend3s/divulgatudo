@@ -78,25 +78,11 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 Exemplos de dependências de drives de outros bancos e as portas padrões:
 
 <h4>MS SQL Server Driver = `Porta: 1433</h4>
-<dependency>
-<groupId>com.microsoft.sqlserver</groupId>
-<artifactId>mssql-jdbc</artifactId>
-<scope>runtime</scope>
-</dependency>
-
 <h4>Oracle driver = Porta: 1521</h4>
-<dependency>
-<groupId>com.oracle.database.jdbc</groupId>
-<artifactId>ojdbc8</artifactId>
-<scope>runtime</scope>
-</dependency>
-
 <h4>MySQL Driver = Porta: 3306</h4>
-<dependency>
-<groupId>mysql</groupId>
-<artifactId>mysql-connector-java</artifactId>
-<scope>runtime</scope>
-</dependency>
+
+![image](https://user-images.githubusercontent.com/30990442/118366423-937ad080-b576-11eb-94b3-cef555821a5c.png)
+
 
 <b>*Você pode ter configurado com outra porta, neste caso é esta que você irá utilizar.</b>
 

@@ -75,6 +75,31 @@ Coloque o username e password definidos quando foi feita a instalação do banco
 
 ![image](https://user-images.githubusercontent.com/30990442/118337778-dd1dd980-b4ea-11eb-9313-ff8582857bf1.png)
 
+Exemplos de dependências de drives de outros bancos e as portas padrões:
+
+<h4>MS SQL Server Driver = `Porta: 1433</h4>
+<dependency>
+<groupId>com.microsoft.sqlserver</groupId>
+<artifactId>mssql-jdbc</artifactId>
+<scope>runtime</scope>
+</dependency>
+
+<h4>Oracle driver = Porta: 1521</h4>
+<dependency>
+<groupId>com.oracle.database.jdbc</groupId>
+<artifactId>ojdbc8</artifactId>
+<scope>runtime</scope>
+</dependency>
+
+<h4>MySQL Driver = Porta: 3306</h4>
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<scope>runtime</scope>
+</dependency>
+
+<b>*Você pode ter configurado com outra porta, neste caso é esta que você irá utilizar.</b>
+
 
 <h5>7 PASSO:</h5>Após configurar o <b>aplication.properties</b> e o <b>pom.xml</b>, crie uma base de dados no seu <b>SGBD</b> com o nome (divulgaTudo). Feito isso, volte para o ECLIPSE e execute a aplicação acessando o pacote <b>com.cap.divulgatudo > DivulgatudoApplication.java.</b></h5> <i>*O Springboot irá criar a tabela anuncio na base de dados que você criou no seu banco. Lembrando que o nome do banco deve ser exatamente assim:</i> <b>divulgaTudo</b>
 
